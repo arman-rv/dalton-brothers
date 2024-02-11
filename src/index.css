@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: shabnam;
+  src: url(./assets/Fonts/shabnam/Shabnam-Bold.ttf);
+}
+@font-face {
+  font-family: Estedad;
+  src: url(./assets/Fonts/ttf/Estedad-Black.ttf);
+}
+@font-face {
+  font-family: vazir;
+  src: url(./assets/Fonts/vazir-font-v16.1.0/Vazir-Bold.ttf);
+}
+@font-face {
+  font-family: vazirYekan;
+  src: url(./assets/Fonts/Yekan/vazir.ttf);
+}
+@font-face {
+  font-family: BNazanin;
+  src: url(./assets/Fonts/BNazanin.ttf);
+}
+@font-face {
+  font-family: shablon;
+  src: url(./assets/Fonts/A\ Ordibehesht\ shablon.TTF);
+}
+@font-face {
+  font-family: BTitrBd;
+  src: url(./assets/Fonts/BTitrBd.ttf);
+}
+@font-face {
+  font-family: Ordibehesht;
+  src: url(./assets/Fonts/Ordibehesht.TTF);
+}
+@font-face {
+  font-family: iranSans;
+  src: url(./Assets/Fonts/IRANSansWeb.ttf);
+}
+@font-face {
+  font-family: iranSansBold;
+  src: url(./Assets/Fonts/IRANSansWeb_Bold.ttf);
+}
+
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  overflow-x: hidden;
+}
+html{scroll-behavior: smooth;}
+.swiper-button-prev {
+  color: #fcc419;
+  left: 0;
+}
+.swiper-button-next {
+  color: #fcc419;
+  right: 0;
+}

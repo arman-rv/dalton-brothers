@@ -1,0 +1,43 @@
+.hamInp:checked + .hamLabel {
+  background: url(../../../assets/Images/panel/PanelAdd.png);
+  transform: rotate(45deg);
+  background-position: center;
+  background-size: cover;
+  right: 0px;
+  top: 10px;
+  z-index: 300;
+}
+.hamInp:checked ~ .hamContent {
+  /* width: 80px; */
+  padding: 10px 0px;
+  right: 0;
+  background: #fff8e9;
+}
+.likeTooltip {
+  position: relative;
+}
+.likeTooltip:hover::after{
+  content: attr(data-tooltip);
+
+  background-color:white ;
+  color:rgb(238, 164, 26);
+  font-size: larger;
+  text-align: center;
+  border-radius: 15px;
+  position: absolute;
+  left: -80px;
+  bottom: 20px;
+  width: 350px;
+  animation: tooltipScale infinite 3s ;
+}
+@keyframes tooltipScale {
+  0%{
+    scale: 1;
+  }
+  60%{
+    scale: 1.1;
+  }
+  100%{
+    scale: 1;
+  }
+}

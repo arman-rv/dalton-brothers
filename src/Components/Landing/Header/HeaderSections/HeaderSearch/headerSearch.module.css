@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+  display: flex !important;
+  animation: open 0.5s forwards linear;
+  border-radius: 25px;
+  z-index: 99999;
+  overflow: hidden;
+}
+.itemRight {
+  position: relative;
+  overflow-x: hidden;
+  animation: openItemRight 0.5s forwards linear;
+}
+.itemLeft {
+  position: relative;
+  overflow-x: hidden;
+  animation: openItemLeft 0.5s forwards linear;
+}
+@keyframes open {
+  0% {
+    top: 30px;
+    opacity: 0;
+    height: 200px;
+  }
+  100% {
+    top: 5px;
+    opacity: 10;
+    height: 500px;
+  }
+}
+@keyframes openItemRight {
+  0% {
+    right: -300%;
+  }
+  100% {
+    right: 0%;
+  }
+}
+@keyframes openItemLeft {
+  0% {
+    left: -300%;
+  }
+  100% {
+    left: 0%;
+  }
+}

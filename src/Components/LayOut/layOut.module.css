@@ -1,0 +1,228 @@
+.hamInp:checked + .hamLabel {
+  background: url(../../../assets/Images/panel/PanelAdd.png);
+  transform: rotate(45deg);
+  background-position: center;
+  background-size: cover;
+  right: 0px;
+  top: 10px;
+  z-index: 300;
+}
+.hamInp:checked ~ .hamContent {
+  height: 100%;
+  /* width: 80px; */
+  padding: 10px 0px;
+  right: 0;
+  background: #fff8e9;
+}
+.hamInp:checked ~ .hamContentDark {
+  height: 100%;
+  /* width: 80px; */
+  padding: 10px 0px;
+  right: 0;
+  background: #053115 !important;
+}
+
+.container {
+  width: 100%;
+  max-width: 1750px;
+  margin: 0 auto;
+}
+.headerBox1 {
+  /* border: 1px solid; */
+  width: 110%;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 50px 80px;
+  padding-bottom: 130px;
+  padding-left: 0;
+  background: url(../../assets/Images/lay-header-bg.svg) no-repeat 150% 0%;
+  background-size: 80%;
+}
+.darkHeaderBox1 {
+  /* border: 1px solid; */
+  width: 110%;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 50px 80px;
+  padding-bottom: 130px;
+  padding-left: 0;
+  background: url(../../assets/Images/lay-darkHeader-.svg) no-repeat 150% 0%;
+  background-size: 80%;
+}
+
+.inp {
+  display: none;
+}
+.sort {
+  width: 25%;
+  height: 100%;
+  padding: 18px 45px;
+  border-radius: 9999px;
+
+  text-align: center;
+  white-space: nowrap;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+
+
+
+.inp:checked + .sort {
+  background: #fcbf49;
+  color: #fff;
+}
+
+.darkModeInp {
+  display: none;
+}
+.darkModeInp:checked + .sort {
+  background: #16a34a;
+  color: #fff;
+}
+
+.footer {
+  width: 100vw;
+  max-width: 1834px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+
+  /* height: 500px; */
+  background: url(../../assets/Images/footer-bg.png) no-repeat 100% -10%;
+  background-size: 65% 460px;
+}
+
+.darkModeFooter {
+  width: 100vw;
+  max-width: 1834px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+
+  /* height: 500px; */
+  background: url(../../assets/Images/laymodeFooter1.png) no-repeat 100% -10%;
+  background-size: 65% 460px;
+}
+
+.illustration {
+  width: 25%;
+}
+
+@media (max-width: 1600px) {
+  .headerBox1,
+  .darkHeaderBox1 {
+    background: url(../../assets/Images/header-bg.svg) no-repeat 130% -10%;
+    background-size: 80%;
+  }
+}
+
+@media (max-width: 1536px) {
+  .headerBox1,
+  .darkHeaderBox1 {
+    /* background: #ffffff; */
+    /* border: 3px solid #fcbf49; */
+    width: 100%;
+    height: 100%;
+    /* border-radius:30px; */
+    /* margin-top: 20px; */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    /* box-shadow:0 0 5px 1px #36353543 ; */
+  }
+  .headerBox1 {
+    background: #fcbf49;
+  }
+  .darkHeaderBox1 {
+    background: #16a34a;
+  }
+
+  .footer {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* height: 500px; */
+    background: #fcbf49;
+  }
+  .darkModeFooter {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* height: 500px; */
+    background: #16a34a;
+  }
+  .footer {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* height: 500px; */
+    background: #fcbf49;
+  }
+  .illustration {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .footer,
+  .darkModeFooter {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sort {
+    width: 100%;
+  }
+}
+.progressWheel {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  transform: rotate(-90deg);
+  width: 100px;
+  height: 100px;
+}
+.progress-wheel div {
+  stroke-dashoffset: 0;
+  stroke-width: 30%;
+  width: 100px;
+  height: 100px;
+  fill: none;
+}
+.progress-wheel .bg {
+  stroke: var(--accent);
+  opacity: 0.2;
+  width: 100px;
+  height: 100px;
+}
+.progress-wheel .progress {
+  stroke: var(--accent);
+  stroke-dasharray: 0, 1;
+  width: 100px;
+  height: 100px;
+}

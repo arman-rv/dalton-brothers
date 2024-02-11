@@ -1,0 +1,224 @@
+.filterInput {
+  display: none;
+}
+.filterInput:checked + .filterLabel {
+  right: 42%;
+}
+.filterInput:checked ~ .content {
+  height: 1200px;
+  padding: 20px 50px;
+}
+.content {
+  direction: rtl;
+}
+.masterInp:checked + .masterLabel {
+  border: 5px solid #fcbf49;
+  width: 190px;
+  height: 190px;
+  background: url(../../../../assets/Images/filter/selMaster.png) white
+    no-repeat 50% 0%;
+  background-size: 85%;
+  border-radius: 30px;
+}
+.masterInpResponsive:checked + .masterLabelResponsive {
+  border: 5px solid #fcbf49;
+  width: 100%;
+  height: 100%;
+  background: url(../../../../assets/Images/filter/selMaster.png) white
+    no-repeat 50% 0%;
+  background-size: 85%;
+  border-radius: 30px;
+}
+.masterLabel {
+  background: url(../../../../assets/Images/filter/defMaster.png) white
+    no-repeat 50% 0%;
+  background-size: 85%;
+  border-radius: 30px;
+}
+.masterLabelResponsive {
+  background: url(../../../../assets/Images/filter/defMaster.png) white
+    no-repeat 50% 0%;
+  background-size: 85%;
+  border-radius: 30px;
+}
+.priceRange {
+  direction: ltr;
+}
+.courseInp:checked + .pythonLabel,
+.courseInpResponsive:checked + .pythonLabelResponsive {
+  border: 5px solid #fcbf49;
+
+  background: url(../../../../assets/Images/filter/cSelected.png) white
+    no-repeat 50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .pythonLabel {
+  width: 135px;
+  height: 135px;
+}
+.courseInpResponsive:checked + .pythonLabelResponsive {
+  width: 100%;
+  height: 100%;
+}
+.pythonLabel,
+.pythonLabelResponsive {
+  background: url(../../../../assets/Images/filter/c.png) white
+    no-repeat 50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+
+.courseInp:checked + .javaScriptLabel,
+.courseInpResponsive:checked + .pythonLabelResponsive {
+  border: 5px solid #fcbf49;
+
+  background: url(../../../../assets/Images/filter/jsSel.png) white
+    no-repeat 50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .javaScriptLabel {
+  width: 135px;
+  height: 135px;
+}
+.courseInpResponsive:checked + .pythonLabelResponsive {
+  width: 100%;
+  height: 100%;
+}
+.javaScriptLabel,
+.pythonLabelResponsive {
+  background: url(../../../../assets/Images/filter/js.png) white
+    no-repeat 50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+
+.courseInp:checked + .reactLabel,
+.courseInpResponsive:checked + .reactLabelResponsive {
+  border: 5px solid #fcbf49;
+  background: url(../../../../assets/Images/filter/selReact.png) white no-repeat
+    50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .reactLabel {
+  width: 135px;
+  height: 135px;
+}
+.courseInpResponsive:checked + .reactLabelResponsive {
+  width: 100%;
+  height: 100%;
+}
+.reactLabel,
+.reactLabelResponsive {
+  background: url(../../../../assets/Images/filter/defReact.png) white no-repeat
+    50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .SQLLabel,
+.courseInpResponsive:checked + .SQLLabelResponsive {
+  border: 5px solid #fcbf49;
+  background: url(../../../../assets/Images/filter/selSql.png) white
+    no-repeat 50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .SQLLabel {
+  width: 135px;
+  height: 135px;
+}
+.courseInpResponsive:checked + .SQLLabelResponsive {
+  width: 100%;
+  height: 100%;
+}
+.SQLLabel,
+.SQLLabelResponsive {
+  background: url(../../../../assets/Images/filter/Sql.png) white
+    no-repeat 50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .mainLabel,
+.courseInpResponsive:checked + .mainLabelResponsive {
+  border: 5px solid #fcbf49;
+  background: url(../../../../assets/Images/filter/selMain.png) white no-repeat
+    50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .mainLabel {
+  width: 135px;
+  height: 135px;
+}
+.courseInpResponsive:checked + .mainLabelResponsive {
+  width: 100%;
+  height: 100%;
+}
+.mainLabel,
+.mainLabelResponsive {
+  background: url(../../../../assets/Images/filter/defMain.png) white no-repeat
+    50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .nextLabel,
+.courseInpResponsive:checked + .mainLabelResponsive {
+  border: 5px solid #fcbf49;
+  background: url(../../../../assets/Images/filter/nextSel.png) white no-repeat
+    50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .nextLabel {
+  width: 135px;
+  height: 135px;
+}
+.courseInpResponsive:checked + .mainLabelResponsive {
+  width: 100%;
+  height: 100%;
+}
+.nextLabel,
+.mainLabelResponsive {
+  background: url(../../../../assets/Images/filter/next.png) white no-repeat
+    50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+
+.courseInp:checked + .backendLabel,
+.courseInpResponsive:checked + .mainLabelResponsive {
+  border: 5px solid #fcbf49;
+  background: url(../../../../assets/Images/filter/serverSel.png) white no-repeat
+    50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+.courseInp:checked + .backendLabel {
+  width: 135px;
+  height: 135px;
+}
+.courseInpResponsive:checked + .mainLabelResponsive {
+  width: 100%;
+  height: 100%;
+}
+.backendLabel,
+.mainLabelResponsive {
+  background: url(../../../../assets/Images/filter/server.png) white no-repeat
+    50% 30%;
+  background-size: 60%;
+  border-radius: 30px;
+}
+
+@media (max-width: 800px) {
+  .filterInput:checked + .filterLabel {
+    right: 30%;
+  }
+}
+
+@media (max-width: 650px) {
+  .filterInput:checked + .filterLabel {
+    right: 32%;
+  }
+}

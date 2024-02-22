@@ -3,20 +3,20 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import toast from "react-hot-toast";
 
-import style from "../../../Landing/Header/header.module.css";
-import ArticleImage from "../../../../Assets/Images/article.png";
-import ArticleWriter from "../../../../Assets/Images/articleWriter.png";
-import disLikeCheck from "../../../../Assets/Images/icons8-dislike-48(3).png";
-import disLike from "../../../../Assets/Images/icons8-dislike-48(4).png";
-import likeCheck from "../../../../Assets/Images/icons8-facebook-like-48.png";
-import like from "../../../../Assets/Images/icons8-facebook-like-48(1).png";
-import comment from "../../../../Assets/Images/comment.png";
+// import style from "../../../Landing/Header/Header.module.css";
+// import ArticleImage from "../../../../Assets/Images/article.png";
+// import ArticleWriter from "../../../../Assets/Images/articleWriter.png";
+// import disLikeCheck from "../../../../Assets/Images/icons8-dislike-48(3).png";
+// import disLike from "../../../../Assets/Images/icons8-dislike-48(4).png";
+// import likeCheck from "../../../../Assets/Images/icons8-facebook-like-48.png";
+// import like from "../../../../Assets/Images/icons8-facebook-like-48(1).png";
+// import comment from "../../../../Assets/Images/comment.png";
 import bookmark from "../../../../Assets/Images/bookMark.png";
 import bookmarkCheck from "../../../../Assets/Images/bookmarkCheck.png";
 import newsImage from "../../../../Assets/Images/newsImage.jpg";
 
 import { Button } from "../../../Common/buttons";
-import { addArticleLike } from "../../../../Core/Services/api/course/Like/Like";
+// import { addArticleLike } from "../../../../Core/Services/api/course/Like/Like";
 import handleDescription from "../../../Common/Functions/HandleDesc/HandleDesc";
 import { addLike } from "../../../../Core/Services/api/course/addLike";
 import {

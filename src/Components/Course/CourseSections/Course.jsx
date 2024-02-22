@@ -3,18 +3,18 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import toast from "react-hot-toast";
 
-import likeCheck from "../../../Assets/Images/like1check.png";
-import likes from "../../../Assets/Images/like1.png";
-import dislikeCheck from "../../../Assets/Images/dislikeCheck.png";
+// import likeCheck from "../../../Assets/Images/like1check.png";
+// import likes from "../../../Assets/Images/like1.png";
+// import dislikeCheck from "../../../Assets/Images/dislikeCheck.png";
 // import dislike from "../../../Assets/Images/dislike.png";
 
-import like from "../../../assets/Images/like & dislike/like.png";
-import likeFilled from "../../../assets/Images/like & dislike/likeFilled.png";
-import likeMode from "../../../assets/Images/like & dislike/likeMode.png";
-import dislike from "../../../assets/Images/like & dislike/dislike.png";
-import dislikeMode from "../../../assets/Images/like & dislike/dislikeMode.png";
-import dislikeFilled from "../../../assets/Images/like & dislike/dislikeFilled.png";
-import dislikeFilledMode from "../../../assets/Images/like & dislike/dislikeFilledMode.png";
+// import like from "../../../assets/Images/like & dislike/like.png";
+// import likeFilled from "../../../assets/Images/like & dislike/likeFilled.png";
+// import likeMode from "../../../assets/Images/like & dislike/likeMode.png";
+// import dislike from "../../../assets/Images/like & dislike/dislike.png";
+// import dislikeMode from "../../../assets/Images/like & dislike/dislikeMode.png";
+// import dislikeFilled from "../../../assets/Images/like & dislike/dislikeFilled.png";
+// import dislikeFilledMode from "../../../assets/Images/like & dislike/dislikeFilledMode.png";
 
 import {
   IconThumbUp,

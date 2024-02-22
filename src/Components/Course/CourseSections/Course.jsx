@@ -24,22 +24,22 @@ import {
 } from "@tabler/icons-react";
 
 // import comment from "../../../assets/Images/comment.png";
-import bookmarkCheck from "../../../assets/Images/bookMarkCheck.png";
+import bookmarkCheck from "../../../assets/Images/bookmarkCheck.png";
 import bookmark from "../../../assets/Images/bookMark.png";
-import http from "../../../Core/Services/interceptor";
-import DarkModelikes from "../../../assets/Images/modeLike.png";
-import comment from "../../../assets/Images/comment.png";
-import darkModeComment from "../../../assets/Images/modeComment.png";
+// import http from "../../../Core/Services/interceptor";
+// import DarkModelikes from "../../../assets/Images/modeLike.png";
+// import comment from "../../../assets/Images/comment.png";
+// import darkModeComment from "../../../assets/Images/modeComment.png";
 import darkModeBookmark from "../../../assets/Images/modeBookmark.png";
 import courseImage from "../../../assets/Images/course.svg";
 import courseImageMode from "../../../assets/Images/courseMode.svg";
 import { Button } from "../../Common/buttons";
 import { addLike, deleteLike } from "../../../Core/Services/api/course/addLike";
-import {
-  getItem,
-  setItem,
-} from "../../../Core/Services/common/storage.services";
-import handleDescription from "../../Common/Functions/HandleDesc/HandleDesc";
+// import {
+//   getItem,
+//   setItem,
+// } from "../../../Core/Services/common/storage.services";
+// import handleDescription from "../../Common/Functions/HandleDesc/HandleDesc";
 import { addSave } from "../../../Core/Services/api/course/addSave";
 import { deleteSave } from "../../../Core/Services/api/course/deleteSave";
 import { addDisLike } from "../../../Core/Services/api/course/addDisLike";

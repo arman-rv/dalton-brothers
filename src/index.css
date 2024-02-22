@@ -36,11 +36,11 @@
 }
 @font-face {
   font-family: iranSans;
-  src: url(./Assets/Fonts/IRANSansWeb.ttf);
+  src: url(./assets/Fonts/IRANSansWeb.ttf);
 }
 @font-face {
   font-family: iranSansBold;
-  src: url(./Assets/Fonts/IRANSansWeb_Bold.ttf);
+  src: url(./assets/Fonts/IRANSansWeb_Bold.ttf);
 }
 
 @tailwind components;

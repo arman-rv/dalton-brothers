@@ -5,7 +5,7 @@ import { NavLinks } from "../../../../Common/Links/NavLinks/NavLinks";
 import logo from "../../../../../assets/Images/logo.png";
 import DarkModeLogo from "../../../../../assets/Images/mode-logo.png";
 
-import style from "../../header.module.css";
+import style from "../../Header.module.css";
 import useColorMode from "../../../../CustomHooks/UseColorMode";
 
 import darkModeImg from "../../../../../assets/Images/darkMode.png";

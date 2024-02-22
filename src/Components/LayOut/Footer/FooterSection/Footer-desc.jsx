@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import FooterTitle from "./Footer-title";
 import FooterText from "./Footer-text";
-import { FooterIcon } from "./footer-icon";
+import { FooterIcon } from "./Footer-icon";
 
 const FooterDesc = ({ className }) => {
   return (

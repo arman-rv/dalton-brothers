@@ -1,5 +1,5 @@
 import React from "react";
-import { CommentPlace } from "../../Common/Comment/Index";
+import { CommentPlace } from "../../Common/Comment/index";
 
 import illustration from "../../../assets/Images/landingFooter-illustration.svg";
 import darkModeIllustration from "../../../assets/Images/landing-ilis-mode.svg";

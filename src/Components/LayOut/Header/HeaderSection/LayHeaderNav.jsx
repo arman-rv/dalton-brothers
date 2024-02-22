@@ -12,6 +12,8 @@ import LightModeBtn from "../../../../assets/Images/lightMode.png";
 import style from "../../layOut.module.css";
 import useColorMode from "../../../CustomHooks/UseColorMode";
 
+import hamMenu from "../../../../assets/Images/hamMenu.png"
+
 const LayHeaderNav = () => {
   const token = useSelector((state) => state.token.token);
   const [colorMode, setColorMode] = useColorMode();
@@ -60,7 +62,9 @@ const LayHeaderNav = () => {
           id="hamMenu"
         />
         <label
-          className={`w-[40px] h-[40px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('../../../../../src/assets/Images/hamMenu.png')] bg-no-repeat bg-[length:50%] bg-center ${style.hamLabel}`}
+          style={{ background: `url(${hamMenu})` }}
+
+          className={`w-[40px] h-[40px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('')] bg-no-repeat bg-[length:50%] bg-center ${style.hamLabel}`}
           htmlFor="hamMenu"
         ></label>
         <div

@@ -13,7 +13,7 @@ const LandingComment = () => {
         پیشنهادات و انتقادات
       </div>
       <div className="flex flex-row-reverse justify-center items-center pt-11">
-        <div className="w-[500px] h-full">
+        <div className="w-[500px] h-full 2xl:mb-16">
           <CommentPlace />
         </div>
         <picture className="w-[40%] xl:flex justify-center items-center hidden">

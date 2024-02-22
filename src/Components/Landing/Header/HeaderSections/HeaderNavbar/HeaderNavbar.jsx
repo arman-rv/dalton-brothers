@@ -16,6 +16,8 @@ import LightModeBtn from "../../../../../assets/Images/lightMode.png";
 import { getItem } from "../../../../../Core/Services/common/storage.services";
 import { useNavigate } from "react-router";
 
+import hamMenu from "../../../../../assets/Images/hamMenu.png";
+
 const HeaderNavbar = () => {
   const token = useSelector((state) => state.token.token);
   const [colorMode, setColorMode] = useColorMode();
@@ -80,7 +82,8 @@ const HeaderNavbar = () => {
           id="hamMenuLayout"
         />
         <label
-          className={`w-[40px] h-[40px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('../../../../../src/assets/Images/hamMenu.png')] bg-no-repeat bg-[length:50%] bg-center ${style.hamLabel}`}
+          style={{ background: `url(${hamMenu})` }}
+          className={`w-[40px] h-[40px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('')] bg-no-repeat bg-[length:50%] bg-center ${style.hamLabel}`}
           htmlFor="hamMenuLayout"
         ></label>
         <div

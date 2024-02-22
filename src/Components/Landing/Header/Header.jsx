@@ -4,8 +4,11 @@ import { HeaderNavbar } from "./HeaderSections/HeaderNavbar/HeaderNavbar";
 import { HeaderContent } from "./HeaderSections/HeaderContent/HeaderContent";
 import HeaderSearch from "./HeaderSections/HeaderSearch/HeaderSearch";
 
-import styled from "./Header.module.css";
+// import styled from "./Header.module.css";
 
+import { useSelector } from "react-redux";
+import landingHeaderLight from "../../../../src/assets/Images/landing-header.svg";
+import landingHeaderDark from "../../../../src/assets/Images/headerNightBg.svg";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
@@ -19,10 +22,21 @@ const Header = () => {
     });
   }, []);
 
+  const colorMode = useSelector((state) => state.theme.theme);
+
   return (
     <div
+      style={
+        colorMode === "dark"
+          ? {
+              backgroundImage: `url(${landingHeaderDark})`,
+            }
+          : {
+              backgroundImage: `url(${landingHeaderLight})`,
+            }
+      }
       dir="rtl"
-      className={`2xl:h-[1100px] lg:bg-[url('../../../../src/assets/Images/landing-header.svg')] dark:lg:bg-[url('../../../../src/assets/Images/headerNightBg.svg')] lg:bg-[length:90%] bg-no-repeat bg-[length:90%] bg-[100% 0%] w-[100%] h-fit gap-[50px] flex flex-col justify-between`}
+      className="2xl:h-[1100px] bg-no-repeat bg-[length:90%] bg-[100% 0%] w-[100%] h-fit gap-[50px] flex flex-col justify-between max-lg:!bg-[url('')]"
     >
       <HeaderNavbar />
       <div data-aos="fade-left" data-aos-duration="2000">

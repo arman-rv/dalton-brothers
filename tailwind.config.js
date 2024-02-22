@@ -48,7 +48,7 @@ export default {
 
       boxShadow: { ri: "0px 0px 10px black" },
       backgroundImage: {
-        ham: "url(./src/assets/images/arrow-ng.png)",
+        ham: "url(arrow-ng.png)",
       },
       backgroundSize: {
         auto: "auto",

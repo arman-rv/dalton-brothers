@@ -4,8 +4,8 @@ import toast from "react-hot-toast";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
-import newsImage from "../../../../../assets/Images/newsImage.png";
-import articleWriter from "../../../../../Assets/Images/articleWriter.png";
+import newsImage from "../../../../../assets/Images/newsImage.jpg";
+import articleWriter from "../../../../../assets/Images/articleWriter.png";
 
 import {
   IconHeart,

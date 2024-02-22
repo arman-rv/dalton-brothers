@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import "aos/dist/aos.css";
 import AOS from "aos";
 
-import newsImage from "../../../../../Assets/Images/newsImage.jpg";
+import newsImage from "../../../../../assets/Images/newsImage.png";
 import articleWriter from "../../../../../Assets/Images/articleWriter.png";
 
 import {

@@ -6,7 +6,7 @@ import AOS from "aos";
 
 import { AboutCourse } from "./components/AboutCourse/AboutCourse";
 import { CourseIntroduction } from "./components/CourseIntroduction/CourseIntroduction";
-import { Needs } from "./components/needs/Needs";
+import { Needs } from "./components/Needs/Needs";
 import { CourseTeacher } from "./components/CourseTeacher/CourseTeacher";
 import { RelatedCourses } from "./components/RelatedCourses/RelatedCourses";
 import { CourseComments } from "../Common/Comment/CourseComment/CourseComment";

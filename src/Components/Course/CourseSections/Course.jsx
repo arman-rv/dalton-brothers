@@ -3,10 +3,10 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import toast from "react-hot-toast";
 
-// import likeCheck from "../../../Assets/Images/like1check.png";
-// import likes from "../../../Assets/Images/like1.png";
-// import dislikeCheck from "../../../Assets/Images/dislikeCheck.png";
-// import dislike from "../../../Assets/Images/dislike.png";
+// import likeCheck from "../../../assets/Images/like1check.png";
+// import likes from "../../../assets/Images/like1.png";
+// import dislikeCheck from "../../../assets/Images/dislikeCheck.png";
+// import dislike from "../../../assets/Images/dislike.png";
 
 // import like from "../../../assets/Images/like & dislike/like.png";
 // import likeFilled from "../../../assets/Images/like & dislike/likeFilled.png";
@@ -23,16 +23,16 @@ import {
   IconThumbDown,
 } from "@tabler/icons-react";
 
-// import comment from "../../../Assets/Images/comment.png";
-import bookmarkCheck from "../../../Assets/Images/bookMarkCheck.png";
-import bookmark from "../../../Assets/Images/bookMark.png";
+// import comment from "../../../assets/Images/comment.png";
+import bookmarkCheck from "../../../assets/Images/bookMarkCheck.png";
+import bookmark from "../../../assets/Images/bookMark.png";
 import http from "../../../Core/Services/interceptor";
-import DarkModelikes from "../../../Assets/Images/modeLike.png";
-import comment from "../../../Assets/Images/comment.png";
-import darkModeComment from "../../../Assets/Images/modeComment.png";
-import darkModeBookmark from "../../../Assets/Images/modeBookmark.png";
-import courseImage from "../../../Assets/Images/course.svg";
-import courseImageMode from "../../../Assets/Images/courseMode.svg";
+import DarkModelikes from "../../../assets/Images/modeLike.png";
+import comment from "../../../assets/Images/comment.png";
+import darkModeComment from "../../../assets/Images/modeComment.png";
+import darkModeBookmark from "../../../assets/Images/modeBookmark.png";
+import courseImage from "../../../assets/Images/course.svg";
+import courseImageMode from "../../../assets/Images/courseMode.svg";
 import { Button } from "../../Common/buttons";
 import { addLike, deleteLike } from "../../../Core/Services/api/course/addLike";
 import {

@@ -16,7 +16,9 @@ import LightModeBtn from "../../../../../assets/Images/lightMode.png";
 import { getItem } from "../../../../../Core/Services/common/storage.services";
 import { useNavigate } from "react-router";
 
-import hamMenu from "../../../../../assets/Images/hamMenu.jpg";
+// import hamMenu from "../../../../../assets/Images/hamMenu.jpg";
+import hamMenuYellow from "../../../../../assets/Images/hamMenuYellow.png";
+import hamMenuGreen from "../../../../../assets/Images/hamMenuGreen.png";
 
 const HeaderNavbar = () => {
   const token = useSelector((state) => state.token.token);
@@ -26,6 +28,8 @@ const HeaderNavbar = () => {
   const handleNav = () => {
     navigate("/panel");
   };
+
+  const hamMenu = colorMode === "dark" ? hamMenuGreen : hamMenuYellow;
 
   return (
     <div className="lg:flex-nowrap 2xl:justify-around xl:justify-start lg:items-center md:justify-around 2xl:gap-[30px] md:items-end sm:justify-start  sm:mt-0 sm:gap-0 gap-5 max-[503px]:mt-[20px] justify-center flex-row-reverse pt-[10px] px-[20px] flex flex-wrap font-irSBold">
@@ -82,15 +86,18 @@ const HeaderNavbar = () => {
           id="hamMenuLayout"
         />
         <label
-          style={{ background: `url(${hamMenu})` , backgroundSize:"37px 37px" }}
-          className={`w-[37px] h-[37px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('')]  bg-no-repeat bg-[length:50%] bg-center ${style.hamLabel} mr-3`}
-
+          style={{ background: `url(${hamMenu})`, backgroundSize: "37px 37px" }}
+          className={`w-[37px] h-[37px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('')] bg-no-repeat !bg-[length:37px_37px] bg-center ${style.hamLabel} mr-3`}
           htmlFor="hamMenuLayout"
         ></label>
         <div
           className={`absolute top-0 right-0 rounded-l-[10px] transition-all duration-100 overflow-hidden flex flex-col gap-[10px] opacity-0 invisible text-base text-[#fdb501] dark:text-[#16a34a] text-[12px] ${style.hamContent} z-[999]`}
         >
-          <label htmlFor="hamMenuLayout" ><div className="transition-all duration-50 mx-2 rotate-45 text-4xl rounded-full w-min h-7">+</div></label>
+          <label htmlFor="hamMenuLayout">
+            <div className="transition-all duration-50 mx-2 rotate-45 text-4xl rounded-full w-min h-7">
+              +
+            </div>
+          </label>
           <NavLinks Children={"دوره ها"} path={"/course"} />
           <NavLinks Children={"دسته بندی"} path={"/"} />
           <NavLinks Children={"پشتیبانی"} path={"/"} />

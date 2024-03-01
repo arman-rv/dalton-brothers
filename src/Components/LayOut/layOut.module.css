@@ -1,8 +1,9 @@
 .hamInp:checked + .hamLabel {
-  background: url(../../../assets/Images/panel/PanelAdd.png);
+  /* background: url(../../../assets/Images/panel/PanelAdd.png); */
   transform: rotate(45deg);
   background-position: center;
   background-size: cover;
+  display: none;
   right: 0px;
   top: 10px;
   z-index: 300;

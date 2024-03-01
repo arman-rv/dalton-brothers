@@ -32,7 +32,7 @@ const RegisterStep1 = () => {
       className={` w-[100%]  relative flex flex-row justify-center items-center font-irSans 2xl:mt-32`}
     >
       <Formik
-        initialValues={{
+        initialValues={{         
           loginPhoneNumber: "",
         }}
         onSubmit={handleToggle}

@@ -12,7 +12,7 @@ import LightModeBtn from "../../../../assets/Images/lightMode.png";
 import style from "../../layOut.module.css";
 import useColorMode from "../../../CustomHooks/UseColorMode";
 
-import hamMenu from "../../../../assets/Images/hamMenu.png"
+import hamMenu from "../../../../assets/Images/hamMenu.png";
 
 const LayHeaderNav = () => {
   const token = useSelector((state) => state.token.token);
@@ -63,19 +63,56 @@ const LayHeaderNav = () => {
         />
         <label
           style={{ background: `url(${hamMenu})` }}
-
-          className={`w-[40px] h-[40px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('')] bg-no-repeat bg-[length:50%] bg-center ${style.hamLabel}`}
+          className={`w-[36px] h-[36px] absolute top-[30px] right-[20px] cursor-pointer transition-all duration-500 bg-[url('')] bg-no-repeat !bg-[length:36px_36px] bg-center ${style.hamLabel} invert-[100%] dark:invert-[95%]`}
           htmlFor="hamMenu"
         ></label>
         <div
-          className={`h-[100%] absolute top-0 right-[-200px] rounded-l-[10px] transition-all duration-500 overflow-hidden flex flex-col gap-[10px] text-base dark:text-[#16a34a] text-[#fdb501] text-[12px] ${style.hamContent}`}
+          className={`h-[100%] absolute top-0 right-[-200px] rounded-l-[10px] transition-all duration-100 overflow-hidden flex flex-col gap-[10px] text-base dark:text-[#16a34a] text-[#fdb501] text-[12px] ${style.hamContent}`}
         >
+          <label htmlFor="hamMenu" className="flex justify-end relative h-[20px]">
+            <div className="transition-all duration-50 mx-2 rotate-45 text-4xl font-[800] rounded-full w-0 border absolute h-0 -mt-[18px]">
+              +
+            </div>
+          </label>
           <NavLinks Children={"خانه"} path={"/"} />
-          <NavLinks Children={"دوره ها"} path={"/course"} />
+          <NavLinks Children={"پشتیبانی"} path={"/"} />
           <NavLinks Children={"اخبار و مقالات"} path={"/news"} />
           <NavLinks Children={"ارتباط با ما"} path={"/"} />
+          <NavLinks Children={"اساتید"} path={"/"} />
         </div>
       </div>
+
+      {/* className={`absolute top-0 right-0 rounded-l-[10px] transition-all duration-100 overflow-hidden flex flex-col gap-[10px] opacity-0 invisible text-base text-[#fdb501] dark:text-[#16a34a] text-[12px] ${style.hamContent} z-[999]`} */}
+
+      {/* <div className="w-[40px] bg-cover bg-center md:hidden order-1 flex">
+        <input
+          className={`hidden ${style.hamInp}`}
+          type="checkbox"
+          name=""
+          id="hamMenuLayout"
+        />
+        <label
+          style={{ background: `url(${hamMenu})` }}
+          className={`w-[37px] h-[37px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('')] bg-no-repeat !bg-[length:37px_37px] bg-center ${style.hamLabel} mr-3 invert-[100%] dark:invert-[95%]`}
+          htmlFor="hamMenuLayout"
+        ></label>
+        <div
+          className={`absolute top-0 right-0 rounded-l-[10px] transition-all duration-100 overflow-hidden flex flex-col gap-[10px] opacity-0 invisible text-base text-[#fdb501] dark:text-[#16a34a] text-[12px] ${style.hamContent} z-[999]`}
+        >
+          <label htmlFor="hamMenuLayout">
+            <div className="transition-all duration-50 mx-2 rotate-45 text-4xl rounded-full w-min h-7">
+              +
+            </div>
+          </label>
+          <NavLinks Children={"دوره ها"} path={"/course"} />
+          <NavLinks Children={"دسته بندی"} path={"/"} />
+          <NavLinks Children={"پشتیبانی"} path={"/"} />
+          <NavLinks Children={"  اخبار و مقالات"} path={"/news"} />
+          <NavLinks Children={"اساتید"} path={"/"} />
+          <NavLinks Children={"ارتباط با ما"} path={"/"} />
+        </div>
+      </div> */}
+
       {/* dark mode*/}
 
       {/* button for sign in or enter */}

@@ -20,7 +20,7 @@ const Register = () => {
             }
       }
       dir="ltr"
-      className={`max-xl:!bg-[url('')] xl:justify-end md:px-[50px] justify-center bg-no-repeat bg-cover bg-center w-[100%] h-[100vh] pt-[100px]  flex flex-nowrap items-start `}
+      className={`max-xl:!bg-[url('')] xl:justify-end md:px-[50px] justify-center bg-no-repeat bg-cover bg-center w-[100%] h-[100vh] pt-[100px]  flex flex-nowrap items-start`}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}

@@ -29,7 +29,7 @@ const HeaderNavbar = () => {
 
   return (
     <div className="lg:flex-nowrap 2xl:justify-around xl:justify-start lg:items-center md:justify-around 2xl:gap-[30px] md:items-end sm:justify-start  sm:mt-0 sm:gap-0 gap-5 max-[503px]:mt-[20px] justify-center flex-row-reverse pt-[10px] px-[20px] flex flex-wrap font-irSBold">
-      <div className="lg:order-3 lg:mx-0 !mx-[20px]  w-[70px]  order-2 max-[640px]:order-1 max-[503px]:order-2">
+      <div className="lg:order-3 lg:mx-0 !mx-[20px]  w-[70px]  order-2 max-[640px]:order-1 max-[503px]:order-2 max-[503px]:mt-5">
         <img alt="" src={colorMode === "dark" ? DarkModeLogo : logo} />
       </div>
       <div className="xl:gap-5 lg:w-fit lg:px-0 lg:gap-0 px-[20px] md:w-[650px] gap-5 flex justify-between items-center ">
@@ -82,8 +82,8 @@ const HeaderNavbar = () => {
           id="hamMenuLayout"
         />
         <label
-          style={{ background: `url(${hamMenu})` , backgroundSize:"40px 42px" }}
-          className={`w-[40px] h-[42px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('')]  bg-no-repeat bg-[length:50%] bg-center ${style.hamLabel} mr-3`}
+          style={{ background: `url(${hamMenu})` , backgroundSize:"37px 37px" }}
+          className={`w-[37px] h-[37px] absolute top-[30px] right-[10px] cursor-pointer transition-all duration-500 bg-[url('')]  bg-no-repeat bg-[length:50%] bg-center ${style.hamLabel} mr-3`}
 
           htmlFor="hamMenuLayout"
         ></label>

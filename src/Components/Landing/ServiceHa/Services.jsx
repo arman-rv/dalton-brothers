@@ -11,7 +11,7 @@ const Services = () => {
   return (
 
 
-    <div dir="rtl" className="w-4/5 mx-auto mt-[100px] h-[420px] font-irSBold" >
+    <div dir="rtl" className="w-4/5 mx-auto mt-[80px] h-[420px] font-irSBold" >
       <Title
         topic={" خدمات"}
         style={

@@ -6,7 +6,7 @@ import { HeaderTopText } from "../HeaderText/HeaderTopText";
 
 const HeaderContent = () => {
   return (
-    <div className="lg:items-start   h-auto mt-[0px] flex flex-col flex-wrap items-center gap-9 w-4/5 mr-16">
+    <div className="lg:items-start h-auto mt-[0px] flex flex-col flex-wrap items-center gap-9 w-4/5 mr-16  max-lg:w-full max-lg:m-0">
       <HeaderTopText  />
       <HeaderText />
       <Button

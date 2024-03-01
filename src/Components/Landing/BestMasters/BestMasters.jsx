@@ -12,6 +12,8 @@ import { useState } from "react";
 const BestMasters = () => {
   const [data, setData] = useState([]);
 
+  // STATIC
+
   const Masters = async () => {
     const result = await getMaster("/Home/GetTeachers");
 

@@ -29,7 +29,7 @@ const RegisterStep1 = () => {
 
   return (
     <div
-      className={` w-[100%] mt-52 relative flex flex-row justify-center items-center font-irSans`}
+      className={` w-[100%]  relative flex flex-row justify-center items-center font-irSans 2xl:mt-32`}
     >
       <Formik
         initialValues={{

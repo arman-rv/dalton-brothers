@@ -67,7 +67,7 @@ const LayHeaderNav = () => {
           htmlFor="hamMenu"
         ></label>
         <div
-          className={`h-[100%] absolute top-0 right-[-200px] rounded-l-[10px] transition-all duration-100 overflow-hidden flex flex-col gap-[10px] text-base dark:text-[#16a34a] text-[#fdb501] text-[12px] ${style.hamContent}`}
+          className={`h-[100%] absolute top-0 right-[-200px] rounded-l-[10px] transition-all duration-100 overflow-hidden flex flex-col gap-[10px]  z-[999] text-base dark:text-[#16a34a] text-[#fdb501] text-[12px] ${style.hamContent}`}
         >
           <label htmlFor="hamMenu" className="flex justify-end relative h-[20px]">
             <div className="transition-all duration-50 mx-2 rotate-45 text-4xl font-[800] rounded-full w-0 border absolute h-0 -mt-[18px]">

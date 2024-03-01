@@ -15,7 +15,7 @@ const Services = () => {
       <Title
         topic={" خدمات"}
         style={
-          " text-[#fcbf49] text-center font-irSans justify-center text-3xl"
+          " text-[#fcbf49] text-center font-irSans justify-center text-3xl dark:text-DarkPallete-100 dark:font-semibold"
         }
       />
       <ServiceKind />

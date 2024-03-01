@@ -30,14 +30,14 @@ const ArticleNews = () => {
   return (
     <div className="w-100   flex flex-col gap-5 mt-20 ">
       <div className="w-[75%]  flex flex-row-reverse justify-between items-center m-auto max-[503px]:w-[85%]">
-        <div className="mr-3 ml-3 text-xl whitespace-nowrap h-28 flex justify-start items-center font-irSans text-[#fcbf49]">
+        <div className="mr-3 ml-3 text-xl whitespace-nowrap h-28 flex justify-start items-center font-irSans text-[#fcbf49] dark:text-DarkPallete-100 dark:font-semibold">
           اخبار و مقالات
         </div>
 
         <Link
           // onClick={() => (Document.documentElement.scrollTop = 0)}
           to={"/news"}
-          className="min-[500px]:w-[210px] whitespace-nowrap w-[175px] h-[50px] bg-secondPallete-100 hover:cursor-pointer hover:bg-opacity-80 duration-100 flex justify-center items-center rounded-full font-irSans text-[#fff] text-l"
+          className="min-[500px]:w-[210px] whitespace-nowrap w-[175px] h-[50px] bg-pallete-100 hover:cursor-pointer hover:bg-opacity-80 duration-100 flex justify-center items-center rounded-full font-irSans text-[#fff] text-xl dark:bg-DarkPallete-100"
         >
           مشاهده همه
         </Link>

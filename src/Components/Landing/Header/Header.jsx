@@ -39,7 +39,7 @@ const Header = () => {
       className="2xl:h-[1100px] bg-no-repeat bg-[length:90%] bg-[100% 0%] w-[100%] h-fit gap-[50px] flex flex-col justify-between max-lg:!bg-[url('')]"
     >
       <HeaderNavbar />
-      <div data-aos="fade-left" data-aos-duration="2000">
+      <div >
         <HeaderContent />
       </div>
       <div data-aos="fade-up" data-aos-duration="1500">

@@ -61,3 +61,7 @@ html{scroll-behavior: smooth;}
   color: #fcc419;
   right: 0;
 }
+
+body , html , :root {
+  overflow-x: hidden;
+}

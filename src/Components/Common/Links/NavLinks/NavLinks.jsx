@@ -6,7 +6,7 @@ const NavLinks = ({ className, Children, path, onClick }) => {
     <NavLink
       onClick={onClick}
       to={path}
-      className={`px-[20px] py-[10px] transition-all duration-500 cursor-pointer flex justify-center items-center rounded-full font-irSBold text-l ${className}`}
+      className={`px-[20px] py-[10px] transition-all duration-50 cursor-pointer flex justify-center items-center rounded-full font-irSBold text-l ${className}`}
     >
       {Children}
     </NavLink>

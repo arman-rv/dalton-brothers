@@ -1,16 +1,19 @@
 .hamInp:checked + .hamLabel {
-  background: url(../../../assets/Images/panel/PanelAdd.png);
+  /* background: url(../../../assets/Images/panel/PanelAdd.png); */
   transform: rotate(45deg);
   background-position: center;
   background-size: cover;
   right: 0px;
   top: 10px;
   z-index: 300;
+  display: none;
 }
 .hamInp:checked ~ .hamContent {
   /* width: 80px; */
   padding: 10px 0px;
-  right: 0;
+  /* right: 0; */
+  opacity: 1;
+  visibility: visible;
   background: #fff8e9;
 }
 .likeTooltip {
